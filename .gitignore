@@ -50,7 +50,6 @@ tmp/
 
 # Output files
 reports/
-exports/
 downloads/
 output/
 cache/
