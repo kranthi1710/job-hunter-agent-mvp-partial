@@ -1,79 +1,69 @@
-# ==========================
+# -----------------------
 # Python
-# ==========================
+# -----------------------
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environments
+# Virtual Environment
 .venv/
 venv/
 env/
 ENV/
 
-# ==========================
 # Environment Variables
-# ==========================
 .env
 .env.*
 
-# ==========================
+!.env.example
+
 # IDE
-# ==========================
 .vscode/
 .idea/
 
-# ==========================
-# OS Files
-# ==========================
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# ==========================
-# Python Build
-# ==========================
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# ==========================
-# Logs
-# ==========================
-*.log
-
-# ==========================
 # Testing
-# ==========================
 .pytest_cache/
 .coverage
 htmlcov/
-
-# ==========================
-# Type Checkers
-# ==========================
 .mypy_cache/
-.pyre/
-.ruff_cache/
 
-# ==========================
+# Logs
+*.log
+logs/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Cache
+.cache/
+temp/
+tmp/
+
+# Output files
+reports/
+exports/
+downloads/
+output/
+cache/
+
+# Generated data
+*.xlsx
+*.csv
+*.sqlite3
+*.db
+
 # Jupyter
-# ==========================
 .ipynb_checkpoints/
 
-# ==========================
-# Reports & Generated Files
-# ==========================
-reports/
-*.xlsx
-
-# Keep the reports folder in Git
-!reports/.gitkeep
-
-# ==========================
-# Temporary Files
-# ==========================
-*.tmp
+# Misc
 *.bak
 *.swp
